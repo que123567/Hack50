@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:key="pref_first_preferencescreen_key"
+                  android:title="preference">
+    <PreferenceCategory
+        android:title="user">
+
+        <EditTextPreference
+            android:key="pref_username"
+            android:summary="username"
+            android:title="Username"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Application">
+        <Preference
+            android:key="pref_rate"
+            android:summary="rate the app in the store"
+            android:title="Rate the app"/>
+
+        <Preference
+            android:key="pref_share"
+            android:summary="Share the app with your friends"
+            android:title="share it"/>
+        <ListPreference
+            android:entries="@array/department"
+            android:entryValues="@array/department_value"
+            android:key="perf_list"
+            android:summary="List"
+            android:title="ListPref"/>
+        <MultiSelectListPreference
+            android:key="pref_multi"
+            android:summary="Multi"
+            android:title="MultiPref"
+            />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

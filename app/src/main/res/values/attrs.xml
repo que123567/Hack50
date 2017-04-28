@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义布局属性-->
+    <declare-styleable name="CascadeLayout">
+        <attr name="horizontal_spacing" format="dimension"></attr>
+        <attr name="vertical_spacing" format="dimension"></attr>
+    </declare-styleable>
+
+    <!--默认值-->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="cascade_horizontal_spacing">10dp</dimen>
+    <dimen name="cascade_vertical_spacing">10dp</dimen>
+
+
+
+
+</resources>
