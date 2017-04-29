@@ -27,7 +27,6 @@ public class TextSwitcher extends AppCompatActivity {
         setContentView(R.layout.activity_text_switcher);
         mTextSwitcher = (android.widget.TextSwitcher) findViewById(R.id.switcher);
         mButton = (Button) findViewById(R.id.btn_1);
-
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
