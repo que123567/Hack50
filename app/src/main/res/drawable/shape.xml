@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="oval">
+    <!--圆角矩形按钮-->
+    <!--shape 改为 rectangle-->
+    <!--<solid android:color="#AAAAAA"></solid>-->
+    <!--<corners android:radius="15dp"></corners>-->
+
+    <!--圆形按钮按钮-->
+    <!-- 定义填充渐变颜色 -->
+    <gradient
+        android:angle="45"
+        android:endColor="#371"
+        android:startColor="#381"
+        android:type="sweep"/>
+    <!-- 设置内填充 -->
+    <padding
+        android:bottom="7dp"
+        android:left="7dp"
+        android:right="7dp"
+        android:top="7dp"/>
+    <!-- 设置圆角矩形 -->
+    <corners android:radius="8dp"/>
+</shape>

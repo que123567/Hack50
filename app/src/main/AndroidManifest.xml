@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".part_2.LayoutAnimationActivity">
+        <activity android:name=".part_3.TextviewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -21,6 +21,8 @@
         <activity android:name=".part_1.TextSwitcher">
         </activity>
         <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".part_2.LayoutAnimationActivity">
         </activity>
     </application>
 
